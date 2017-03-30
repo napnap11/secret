@@ -1,0 +1,6 @@
+download
+goto src folder
+./configure --prefix=/usr/local
+make
+sudo make install
+gcc sort1.c -L/usr/local/lib -lpapi

@@ -1,0 +1,2 @@
+docker build -t my-quiz
+docker run -it --rm my-quiz
