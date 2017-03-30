@@ -135,7 +135,7 @@ int main(){/*Declaring and initializing the event set with the presets*/
         printf("retval: %d\n", retval2);
         exit(1);
     }
-    computation_mult();
+    ReadFile();
     if((retval2=PAPI_flops(&real_time,&proc_time,&flpops,&mflops)) < PAPI_OK)
     {
         printf("retval: %d\n", retval2);
